@@ -1,0 +1,22 @@
+[Unit]
+Description=Gem's distributed currency daemon
+After=network.target
+
+[Service]
+User=gemcore
+Group=gemcore
+
+Type=forking
+PIDFile=/var/lib/gemd/gemd.pid
+ExecStart=/usr/bin/gemd -daemon -pid=/var/lib/gemd/gemd.pid \
+-conf=/etc/gemcore/gem.conf -datadir=/var/lib/gemd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

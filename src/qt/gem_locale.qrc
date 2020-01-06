@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/gem_ar.qm</file>
+        <file alias="bg">locale/gem_bg.qm</file>
+        <file alias="de">locale/gem_de.qm</file>
+        <file alias="en">locale/gem_en.qm</file>
+        <file alias="es">locale/gem_es.qm</file>
+        <file alias="fi">locale/gem_fi.qm</file>
+        <file alias="fr">locale/gem_fr.qm</file>
+        <file alias="it">locale/gem_it.qm</file>
+        <file alias="ja">locale/gem_ja.qm</file>
+        <file alias="ko">locale/gem_ko.qm</file>
+        <file alias="nl">locale/gem_nl.qm</file>
+        <file alias="pl">locale/gem_pl.qm</file>
+        <file alias="pt">locale/gem_pt.qm</file>
+        <file alias="ru">locale/gem_ru.qm</file>
+        <file alias="sk">locale/gem_sk.qm</file>
+        <file alias="sv">locale/gem_sv.qm</file>
+        <file alias="th">locale/gem_th.qm</file>
+        <file alias="tr">locale/gem_tr.qm</file>
+        <file alias="vi">locale/gem_vi.qm</file>
+        <file alias="zh_CN">locale/gem_zh_CN.qm</file>
+        <file alias="zh_TW">locale/gem_zh_TW.qm</file>
+    </qresource>
+</RCC>

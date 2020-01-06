@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The Dash Core developers
+// Copyright (c) 2018 The Gem Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DASH_DETERMINISTICMNS_H
-#define DASH_DETERMINISTICMNS_H
+#ifndef BGM_DETERMINISTICMNS_H
+#define BGM_DETERMINISTICMNS_H
 
 #include "arith_uint256.h"
 #include "bls/bls.h"
@@ -669,4 +669,4 @@ private:
 
 extern CDeterministicMNManager* deterministicMNManager;
 
-#endif //DASH_DETERMINISTICMNS_H
+#endif //BGM_DETERMINISTICMNS_H

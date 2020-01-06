@@ -1,9 +1,9 @@
-// Copyright (c) 2018-2019 The Dash Core developers
+// Copyright (c) 2018-2019 The Gem Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DASH_CRYPTO_BLS_BATCHVERIFIER_H
-#define DASH_CRYPTO_BLS_BATCHVERIFIER_H
+#ifndef BGM_CRYPTO_BLS_BATCHVERIFIER_H
+#define BGM_CRYPTO_BLS_BATCHVERIFIER_H
 
 #include "bls.h"
 
@@ -232,4 +232,4 @@ private:
     }
 };
 
-#endif //DASH_CRYPTO_BLS_BATCHVERIFIER_H
+#endif //BGM_CRYPTO_BLS_BATCHVERIFIER_H
