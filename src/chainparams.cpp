@@ -279,19 +279,18 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xad;
-        pchMessageStart[1] = 0x0c;
-        pchMessageStart[2] = 0x6b;
-        pchMessageStart[3] = 0xbd;
+        pchMessageStart[0] = 0xa1;
+        pchMessageStart[1] = 0x09;
+        pchMessageStart[2] = 0x61;
+        pchMessageStart[3] = 0xb1;
         vAlertPubKey = ParseHex("048240a8748a80a286b270ba126705ced4f2ce5a7847b3610ea3c06513150dade2a8512ed5ea86320824683fc0818f0ac019214973e677acd1244f6d0571fc5103");
         nDefaultPort = 26771;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1578338103, 12535040, 0x1e0ffff0, 1, 500 * COIN);
+        genesis = CreateGenesisBlock(1578432800, 7837926, 0x1e0ffff0, 1, 500 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c2fcdae443c87f21899d198b9d164cb5d1195b5c2117dafef32dee7b84f"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000006276724dbf6b814b401a7f76f123ef75f7a13e57d1173417badd43bee1"));
         assert(genesis.hashMerkleRoot == uint256S("0x00529635482ee5b1f3deaf82d41d9f6e21bb7abeaa3d6761b91c1aa8faf37bd1"));
-
 
         vSeeds.push_back(CDNSSeedData("gemseed.bitgem.org", "gemseed.bitgem.org"));
         vSeeds.push_back(CDNSSeedData("node.bitgem.org", "node.bitgem.org"));
@@ -445,9 +444,9 @@ public:
         nDefaultPort = 26871;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1578338103, 12535040, 0x1e0ffff0, 1, 500 * COIN);
+        genesis = CreateGenesisBlock(1578432800, 7837926, 0x1e0ffff0, 1, 500 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c2fcdae443c87f21899d198b9d164cb5d1195b5c2117dafef32dee7b84f"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000006276724dbf6b814b401a7f76f123ef75f7a13e57d1173417badd43bee1"));
         assert(genesis.hashMerkleRoot == uint256S("0x00529635482ee5b1f3deaf82d41d9f6e21bb7abeaa3d6761b91c1aa8faf37bd1"));
 
         vFixedSeeds.clear();
@@ -598,9 +597,9 @@ public:
         nPruneAfterHeight = 1000;
 
 
-        genesis = CreateGenesisBlock(1578338103, 12535040, 0x1e0ffff0, 1, 500 * COIN);
+        genesis = CreateGenesisBlock(1578432800, 7837926, 0x1e0ffff0, 1, 500 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c2fcdae443c87f21899d198b9d164cb5d1195b5c2117dafef32dee7b84f"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000006276724dbf6b814b401a7f76f123ef75f7a13e57d1173417badd43bee1"));
         assert(genesis.hashMerkleRoot == uint256S("0x00529635482ee5b1f3deaf82d41d9f6e21bb7abeaa3d6761b91c1aa8faf37bd1"));
 
         devnetGenesis = FindDevNetGenesisBlock(consensus, genesis, 50 * COIN);
@@ -742,9 +741,9 @@ public:
         nDefaultPort = 26871;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1578338103, 12535040, 0x1e0ffff0, 1, 500 * COIN);
+        genesis = CreateGenesisBlock(1578432800, 7837926, 0x1e0ffff0, 1, 500 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c2fcdae443c87f21899d198b9d164cb5d1195b5c2117dafef32dee7b84f"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000006276724dbf6b814b401a7f76f123ef75f7a13e57d1173417badd43bee1"));
         assert(genesis.hashMerkleRoot == uint256S("0x00529635482ee5b1f3deaf82d41d9f6e21bb7abeaa3d6761b91c1aa8faf37bd1"));
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
